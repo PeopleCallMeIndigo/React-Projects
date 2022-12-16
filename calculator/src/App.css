@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: rgb(33, 0, 57);
+  font-style: Lato, sans-serif;
+}
+
+.App {
+  height: 100vh;
+  padding-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo-container {
+  width: 100%;
+  height: 50px;
+  margin: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator-container {
+  width: 400px;
+  height: 630px;
+  padding: 1rem;
+  background-color: #99c9ff;
+  border-radius: 1rem;
+  border: 4px solid #fff;
+}
+
+.row {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
